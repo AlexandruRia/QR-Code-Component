@@ -1,8 +1,32 @@
 body{
     margin:0;
     padding:0;
-    background-color:hsl(220, 15%, 55%);
+    background-color:hsl(212, 45%, 89%);
+    
+    height: 100vh;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+}
 
+#qr-container{
+    width:220px;
+    background-color:hsl(0, 0%, 100%);
+    padding:10px;
+}
 
+#qr-img{
+    width:200px;
+    height:200px;
+    border:1px solid;
+    display:block;
+    margin: auto;
+}
+
+.text{
+    text-align:center;
+}
