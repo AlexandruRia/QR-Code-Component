@@ -44,6 +44,7 @@ main{
 #qr-text-1{
     font-weight:700;
     color:hsl(218, 44%, 22%);
+    font-size:15px;
 }
 
 #qr-text-2{
